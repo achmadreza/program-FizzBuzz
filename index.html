@@ -29,10 +29,10 @@
             par.innerHTML="Buzzz!";
         }else if(input %3===0 ){
             par.innerHTML="Fizz!";    
-        }else if(input ==89 ){
-            par.innerHTML="89";
+        }else if(input %5===0 ){
+            par.innerHTML="FizzBuzz!";
         }else{
-            par.innerHTML="FizzBuzz!"
+            par.innerHTML=input
         }
             main.append(par);
             console.log(input)
